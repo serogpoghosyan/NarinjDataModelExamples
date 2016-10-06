@@ -14,6 +14,7 @@
 		1CCAEDD01DA6B23B00C2CAB8 /* NarinjDataModelExamples.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1CCAEDCE1DA6B23B00C2CAB8 /* NarinjDataModelExamples.xcdatamodeld */; };
 		1CCAEDD21DA6B23B00C2CAB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CCAEDD11DA6B23B00C2CAB8 /* Assets.xcassets */; };
 		1CCAEDD51DA6B23B00C2CAB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CCAEDD31DA6B23B00C2CAB8 /* LaunchScreen.storyboard */; };
+		1CCAEDDE1DA6B37900C2CAB8 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CCAEDDD1DA6B37900C2CAB8 /* DataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		1CCAEDD11DA6B23B00C2CAB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CCAEDD41DA6B23B00C2CAB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CCAEDD61DA6B23B00C2CAB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CCAEDDC1DA6B37900C2CAB8 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		1CCAEDDD1DA6B37900C2CAB8 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				1CCAEDC61DA6B23B00C2CAB8 /* AppDelegate.m */,
 				1CCAEDC81DA6B23B00C2CAB8 /* ViewController.h */,
 				1CCAEDC91DA6B23B00C2CAB8 /* ViewController.m */,
+				1CCAEDDC1DA6B37900C2CAB8 /* DataManager.h */,
+				1CCAEDDD1DA6B37900C2CAB8 /* DataManager.m */,
 				1CCAEDCB1DA6B23B00C2CAB8 /* Main.storyboard */,
 				1CCAEDD11DA6B23B00C2CAB8 /* Assets.xcassets */,
 				1CCAEDD31DA6B23B00C2CAB8 /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CCAEDD01DA6B23B00C2CAB8 /* NarinjDataModelExamples.xcdatamodeld in Sources */,
+				1CCAEDDE1DA6B37900C2CAB8 /* DataManager.m in Sources */,
 				1CCAEDCA1DA6B23B00C2CAB8 /* ViewController.m in Sources */,
 				1CCAEDC71DA6B23B00C2CAB8 /* AppDelegate.m in Sources */,
 				1CCAEDC41DA6B23B00C2CAB8 /* main.m in Sources */,
